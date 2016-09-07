@@ -1,1 +1,28 @@
-<!doctype html><meta charset=utf-8><style>body{border-radius:10px;border:2px solid #555;border-right:4px solid #555;border-bottom:4px solid #555;margin:20px auto;width:800px;height:520px;padding:10px}nav#n1{width:130px;float:left;margin:9px 0 0}nav#n1 button{width:130px;margin:6px 0 0;border:2px solid #555}button:active,button:focus{background:#555;color:#fff}#i1{width:650px;height:500px;margin:10px 0 0 140px;border:2px solid #555;background:#777;position:relative}iframe{background:#fff;display:block}pre{word-wrap:break-word;white-space:pre-wrap;background:#fff;margin:20px;padding:10px;max-height:360px;overflow:auto}</style><nav id=n1></nav><div id=i1><script>for(i in j="MMXLVIII0flASCII bird0Four0Impossible Road02P games0Chip80Floppy dragon0Flappy Braille0PopTiles0Simon0Sweeper0Ping0Run0Snake0Snake Lite0Color0Game of Life".split(0))n1.innerHTML+="<button onclick=p("+i+",this)>"+j[i];p=(n,o)=>{location.hash="";var req=new XMLHttpRequest;req.open("GET",n.toString(36)+(n==7?".js":".htm"),!1);req.send(null);if(n!=2)i1.innerHTML="<center><br><button onclick=q('"+n+"')><h2>PLAY "+o.innerHTML+"</button></center><pre>"+req.responseText.replace(/.{69}/g,"$&\n").replace(/this/g,"top").replace(/</g,"&lt;");else i1.innerHTML="<center><br><button onclick=q('"+n+"')><h2>PLAY "+o.innerHTML+"</button></center><pre>"+req.responseText.replace(/this/g,"top").replace(/</g,"&lt;")};q=(n)=>{i1.innerHTML="<iframe id=P src="+(n.toString(36))+".htm frameborder=no>";if(n==0){P.style.width="250px";P.style.height="280px";P.style.margin="100px auto"}else if(n==1){P.style.width="200px";P.style.height="200px";P.style.margin="150px auto"}else if(n==2){P.style.width="580px";P.style.height="150px";P.style.margin="180px auto"}else if(n==3){P.style.width="98%";P.style.height="98%";P.style.margin="5px auto"}else if(n==4){P.style.width="98%";P.style.height="98%";P.style.margin="5px auto"}else if(n==5){P.style.width="350px";P.style.height="250px";P.style.margin="110px auto"}else if(n==6){P.style.width="98%";P.style.height="98%";P.style.margin="5px auto"}else if(n==7){P.style.width="0";P.style.height="0";P.style.margin="5px auto"}else if(n==8){P.style.width="130px";P.style.height="180px";P.style.margin="150px auto"}else if(n==9){P.style.width="98%";P.style.height="98%";P.style.margin="5px auto"}else if(n==10){P.style.width="300px";P.style.height="280px";P.style.margin="100px auto"}else if(n==11){P.style.width="250px";P.style.height="210px";P.style.margin="130px auto"}else if(n==12){P.style.width="500px";P.style.height="150px";P.style.margin="180px auto"}else if(n==13){P.style.width="335px";P.style.height="185px";P.style.margin="180px auto"}else if(n==14){P.style.width="280px";P.style.height="280px";P.style.margin="110px auto"}else if(n==15){P.style.width="400px";P.style.height="98%";P.style.margin="5px auto"}else{P.style.width="120px";P.style.height="120px";P.style.margin="180px auto"}P.focus();for(i of document.querySelectorAll("button"))i.className=""}</script>
+﻿<!doctype html>
+<style>
+body{border-radius:10px;border:2px solid #555;border-right:4px solid #555;border-bottom:4px solid #555;margin:20px auto;width:810px;height:520px;padding:10px}
+#n1{width:130px;float:left;margin:9px 0 0}
+#n1 button{width:130px;margin:6px 0 0;border:2px solid #555}
+button:active,button:focus{background:#555;color:#fff}
+#i1{width:650px;height:500px;margin:10px 0 0 140px;border:2px solid #555;background:#777;position:relative}
+iframe{background:#fff;display:block}
+pre{word-wrap:break-word;white-space:pre-wrap;background:#fff;margin:20px;padding:10px;max-height:360px;overflow:auto}
+</style>
+<nav id=n1></nav>
+<div id=i1>
+<script>
+for(i in j="MMXLVIII0flASCII bird0Four0Impossible Road02P games0Chip80Floppy dragon0Flappy Braille0PopTiles0Simon0Sweeper0Ping0Run0Snake0Snake Lite0Color0Game of Life".split(0))n1.innerHTML+="<button onclick=\"p("+i+",'"+j[i]+"')\">"+j[i];
+  
+p=(n,o)=>{
+location.hash="";
+if(n==2)q(n);
+else{
+x=new XMLHttpRequest;x.open("GET",n.toString(36)+(n==7?".js":".htm"),!1);x.send(null);
+z=x.responseText.replace(/.{71}/g,"$&\n").replace(/this/g,"top").replace(/</g,"&lt;");
+i1.innerHTML="<center><br><button onclick=q("+n+")><h2>PLAY "+o;
+i1.innerHTML+="<pre>"+z;
+}}
+
+q=(n)=>{
+h=[26,18,16,50,48,26,50,0,16,50,28,22,16,20,28,48,12];i1.innerHTML="<iframe id=P src="+(n.toString(36))+".htm frameborder=no style='width:"+[25,20,58,65,50,35,65,0,13,65,30,25,50,34,28,40,12][n]+"0px;height:"+h[n]+"0px;margin:"+((50-h[n])/2)+"0px auto'>";P.focus()}
+</script>

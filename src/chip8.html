@@ -1,7 +1,8 @@
-<input onchange="with(new FileReader)readAsArrayBuffer(files[0]),onload=s=>{play(new Uint8Array(result))}"type=file>
+﻿<input onchange="with(new FileReader)readAsArrayBuffer(files[0]),onload=s=>{play(new Uint8Array(result))}"type=file>
 <canvas id=C width=64 height=32 value=C8PIC.ch8 style="width:320px;height:160px"></canvas><script>
 play=function(rom){
 
+  console.log(rom);
   /** Initialization **/
 
   // Vars
@@ -281,7 +282,7 @@ play=function(rom){
         if(NN == 0x0A){
 
           // Loop until VX != -1
-          if(!~(V[X] = keys_pressed.c8Of(!0))){
+          if(!~(V[X] = keys_pressed.indexOf(!0))){
             pc -= 2;
           }
         }

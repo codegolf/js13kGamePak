@@ -1,0 +1,35 @@
+code:
+
+200: 00E0 : CLS           // clear screen
+202: 6414 : LD V4, 20     // V4 = 20
+204: 650D : LD V5, 13     // V5 = 13
+206: A228 : LD I, 0x228   // I = address of J sprite
+208: D455 : DRW V4, V5, 5 // draw J at 20:13
+20a: 6105 : LD V1, 5      // V1 = 5
+20c: F129 : LD F, V1      // I = address of digit 5 in emulator memory
+20e: 7405 : ADD V4, 5     // V4 += 5
+210: D455 : DRW V4, V5, 5 // draw 5 (similar to a "S") at 25:13 
+212: 6101 : LD V1, 1      // V1 = 1
+214: F129 : LD F, V1      // I = address of digit 1 in emulator memory
+216: 7405 : ADD V4, 5     // V4 += 5
+218: D455 : DRW V4, V5, 5 // draw 1 at 30:13 
+21a: 6103 : LD V1, 3      // V1 = 3
+21c: F129 : LD F, V1      // I = address of digit 3 in emulator memory
+21e: 7405 : ADD V4, 5     // V4 += 5
+220: D455 : DRW V4, V5, 5 // draw 3 at 35:13 
+222: A22D : LD I, 0x22D   // I = address of J sprite
+224: 7405 : ADD V4, 5     // V4 += 5
+226: D455 : DRW V4, V5, 5 // draw K at 40:13
+
+data:
+
+228: F0 : 1111 0000 // J sprite
+229: 20 : 0010 0000
+22a: a0 : 1010 0000
+22b: a0 : 1010 0000
+22c: e0 : 1110 0000
+22d: 90 : 1001 0000 // K sprite
+22e: a0 : 1010 0000
+22f: c0 : 1100 0000
+230: a0 : 1010 0000
+231: 90 : 1001 0000

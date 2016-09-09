@@ -1,27 +1,25 @@
-The Codegolf Team (xem, subzey, aemkei, p01, innovati, veu, ...) presents its compilation of 2 x 13 mini-games for js13kGames! (plus some bonuses)
-All of them are inedite or were reworked or regolfed for this compilation.
-
-1 - MMXLVIII: a 2048 clone (play with arrow keys)
-2 - flASCII bird: a flappy bird clone in ASCII art (play with any key)
-3 - Four: a Tetris clone in ASCII art and coded in quine (play with arrow keys)
-4 - Impossible Road: a 1kb remake of the smartphone game (play with arrow keys)
-5,6,7,8 - 2P games: a compilation of four two-player games: Tic-tac-toe, Tic-tac-toe 3D, 4 in a row, Reversi. (play with the mouse)
-9,10,11,12,13,14 - Chip8: a near-perfect chip8 emulator with sound, including 6 demo games. (play with Numpad 0-9 + QWERTY)
-  - Rocket (press Y to launch)
-  - Breakout (play with 4 and 6)
-  - X-mirror (draw with 8, 4, 6, 2)
-  - Cave (start with Y, move with 8, 4, 6, 2)
-  - Soccer (removed?)
-Floppy dragon
-Flappy Braille
-PopTiles
-Simon
-Sweeper
-Ping
-Run
-Snake
-Snake Lite
-Color
-Game of Life
-Game of ASCII
-Game of Braille
+26 mini-games by The Codegolf Team (xem, subzey, aemkei, p01, innovati, veu, solinca, tio)
+- MMXLVIII (play with arrow keys)
+- flASCII bird (play with any key)
+- Four (play with arrow keys)
+- Impossible Road (play with arrow keys)
+- 2P games (play with the mouse)
+- CHIP8 emulator (play with Numpad 0-9 + QWERTY) + 5 demos
+  -> Rocket (press Y to launch)
+  -> Breakout (play with 4 and 6)
+  -> X-mirror (draw with 8, 4, 6, 2)
+  -> Cave (start with Y, move with 8, 4, 6, 2)
+  -> More free ROMs on Github
+- Floppy dragon (play with mouse)
+- Flappy Braille (look the address bar and use arrow keys)
+- PopTiles (click the numbers in the correct order)
+- Simon (play with arrow keys)
+- Mini Sweeper (play with left and right click)
+- Ping (play with arrow keys)
+- Run (play with arrow keys)
+- Snake (play with arrow keys)
+- Snake Lite (play with arrow keys)
+- Color (play with mouse)
+- Game of Life
+- Game of ASCII (play with left click, press any key to evolve)
+- Game of Braille
